@@ -1,14 +1,43 @@
 .topnav {
   background-color: #ffffff;
   overflow: hidden;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .topnav a {
-  color: #000000;
-  text-align: center;
+  color: #909090;
+  align-self: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  font-family: Verdana, serif;
+}
+
+.topnav a.logo {
+  color: #000000;
+  float: left;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Verdana, serif;
+}
+
+.topnav a.request {
+  color: #ffffff;
+  text-align: center;
+  border-radius: 60px;
+  background-image: linear-gradient(
+    to right,
+    #0bdc58 0%,
+    #4aa3cf 100%,
+    #84fab0 500%
+  );
+  padding: 14px 36px;
+  font-size: 15px;
+  font-family: Verdana, serif;
+  float: right;
 }
 
 @media only screen and (max-width: 500px) {
